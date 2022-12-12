@@ -1,8 +1,7 @@
 {
   "name": "advent-of-code-2022",
   "version": "0.0.11",
-  "description": "My modest take on the 2022 Advent of Code edition. Just Boring js.",
-  "main": "index.js",
+  "description": "My modest take on the 2022 Advent of Code edition. Just Boring JS.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
@@ -22,6 +21,6 @@
     "prettier": "^2.8.1"
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{mjs,js,css,md}": "prettier --write"
   }
 }
