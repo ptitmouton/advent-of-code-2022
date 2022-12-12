@@ -1,0 +1,27 @@
+{
+  "name": "advent-of-code-2022",
+  "version": "0.0.11",
+  "description": "My modest take on the 2022 Advent of Code edition. Just Boring js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptitmouton/advent-of-code-2022.git"
+  },
+  "keywords": [
+    "aoc"
+  ],
+  "author": "Alexis Rinaldoni",
+  "homepage": "https://github.com/ptitmouton/advent-of-code-2022#readme",
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
